@@ -1,10 +1,23 @@
-td, th {
+td {
 	border: 1px solid currentColor;
 	padding-top: 20px ;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	padding-right: 40px;
+	padding-right: 30px;
 	margin: 0;
+	background-color: hsla(180, 100%, 50%, 0.5);
+	
+}
+
+th {
+	border: 1px solid currentColor;
+	padding-top: 20px ;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	margin: 0;
+	color: hsl(255, 80%, 30%);
+	background-color: hsla(20, 100%, 64%, 0.75);
 	
 }
 
