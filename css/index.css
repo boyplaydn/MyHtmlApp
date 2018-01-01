@@ -1,0 +1,16 @@
+div > p{
+	font-style: italic;
+}
+
+div >h1{
+	font-style: italic;
+	text-decoration: underline;
+	text-shadow: 2px 2px lightblue;
+}
+
+a, a:hover, a:visited {
+	text-decoration: underline;
+	color: currentColor;
+	text-shadow: 0.75px 0.75px lightblue;
+
+}
