@@ -4,12 +4,33 @@ div > p{
 
 div >h1{
 	font-style: italic;
-	text-decoration: underline;
-	text-shadow: 2px 2px lightblue;
+		
+}
+#me{
+	font-size: 20px;
 }
 
-a, a:hover, a:visited {
-	text-decoration: underline;
-	color: currentColor;
-	text-shadow: 0.75px 0.75px lightblue;
+div.people{
+	border-bottom: 1px solid currentcolor;
+	padding: 5px;
+	margin: 5px;
+
 }
+
+#linkin-park{
+	background-color: black;
+	color : white;
+}
+#gordon-ramsay{
+	background-color: rgb(149, 193, 187);
+	color : white;
+}
+#bill-gates{
+	background-color: violet;
+	color : white;
+}
+#michael-jordan{
+	background-color: rgb(244, 131, 66);
+	color: white;
+}
+
