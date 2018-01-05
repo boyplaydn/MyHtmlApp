@@ -1,8 +1,8 @@
 body {
-	color: white;
+	color: rgb(78, 56, 86);
 	background-color: hsla(9, 100%, 64%, 0.5);
 	font-family: "Arial","Apple Garamond","Ubuntu";
-	font-size: 14px;
+	font-size: 20px;
 }
 
 p {
@@ -11,4 +11,81 @@ p {
 
 a, a:hover, a:visited {
 	color: currentColor;	
+}
+
+
+
+@media screen and (min-width: 900px){
+
+	#img-linkin{
+		content: url( "../images/linkin_park.png");
+	}
+	#img-bill{
+		content: url( "../images/bill_gates.jpg");
+	}
+	#img-jordan{
+		content: url( "../images/michael_jordan.jpg");
+	}
+	#img-gordon{
+		content: url( "../images/gordon_ramsay.jpg");
+	}
+	video, audio {
+	width: 30%;
+	}
+}
+
+@media screen and (max-width:900px){
+	
+	#img-linkin{
+		content: url( "../images/img_linkin.png");
+	}
+	#img-bill{
+		content: url( "../images/img_bill.png");
+	}
+	#img-jordan{
+		content: url( "../images/img_jordan.jpg");
+	}
+	#img-gordon{
+		content: url( "../images/img_gordon.jpg");
+	}
+	video, audio {
+	width: 20%;
+	}
+}
+@media screen and (max-width:600px){
+	figure{
+		padding: 7px;
+	}
+	figcaption{
+		font-size: 5px;
+	}
+	body{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:400px){
+	figure{
+		padding: 5px;
+	}
+	body{
+		font-size: 9px;
+	}
+}
+
+
+
+figure { 
+   width: 100%
+   margin: 0;
+   padding: 10px;
+   border: solid;
+}
+figcaption{
+	font-style: italic;
+	text-align: center;
+}
+img {
+	width: 100%;
+	max-width: 100%;	
 }
